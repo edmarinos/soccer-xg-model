@@ -16,8 +16,8 @@ st.set_page_config(
 # ── Load model ────────────────────────────────────────────────────────────────
 @st.cache_resource
 def load_model():
-    model = joblib.load('models/lr_xg_model.pkl')
-    scaler = joblib.load('models/scaler.pkl')
+    model = joblib.load('lr_xg_model.pkl')
+    scaler = joblib.load('scaler.pkl')
     return model, scaler
 
 model, scaler = load_model()
