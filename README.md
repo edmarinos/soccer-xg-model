@@ -66,25 +66,23 @@ crowded penalty area context our geometric features cannot capture.
 soccer-xg-model/
 ├── app.py                  # Streamlit application
 ├── requirements.txt
-├── models/
-│   ├── lr_xg_model.pkl     # Trained Logistic Regression model
-│   └── scaler.pkl          # Fitted StandardScaler
-├── notebooks/
-│   └── 01_eda.ipynb        # Full EDA, feature engineering, and modeling
-└── data/
-    ├── shot_map.png
-    ├── distance_angle.png
-    ├── shot_characteristics.png
-    ├── calibration_curve.png
-    ├── roc_curve.png
-    └── feature_importance.png
+├── lr_xg_model.pkl         # Trained Logistic Regression model
+├── scaler.pkl              # Fitted StandardScaler
+├── 01_eda.ipynb            # Full EDA, feature engineering, and modeling
+├── calibration_curve.png
+├── distance_angle.png
+├── feature_importance.png
+├── lr_coefficients.png
+├── roc_curve.png
+├── shot_characteristics.png
+└── shot_map.png
 ```
 
 ---
 
 ## How to Run Locally
 ```bash
-git clone https://github.com/YOUR_USERNAME/soccer-xg-model.git
+git clone https://github.com/edmarinos/soccer-xg-model.git
 cd soccer-xg-model
 pip install -r requirements.txt
 python -m streamlit run app.py
