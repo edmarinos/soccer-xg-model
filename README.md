@@ -5,7 +5,7 @@ A machine learning model that predicts the probability of a shot resulting
 in a goal based on pre-shot characteristics. Built using StatsBomb open 
 event data from the 2022 FIFA World Cup.
 
-**[Try the live app →](https://soccer-xg-model-k3yedbtduksvkqm7s353v5.streamlit.app/)**
+**[Try the live app →](https://soccer-xg-model.streamlit.app/)**
 
 ---
 
