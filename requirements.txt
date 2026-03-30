@@ -1,0 +1,8 @@
+streamlit
+scikit-learn==1.8.0
+xgboost
+pandas
+numpy
+matplotlib
+statsbombpy
+joblib
